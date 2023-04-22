@@ -6,7 +6,6 @@ channels:
   - defaults
 dependencies:
   - _libgcc_mutex
-  - _openmp_mutex
   - backcall
   - backports
   - backports.functools_lru_cache
@@ -25,7 +24,6 @@ dependencies:
   - cycler
   - cytoolz
   - dask-core
-  - dbus
   - decorator
   - defusedxml
   - entrypoints
@@ -41,8 +39,6 @@ dependencies:
   - giflib
   - glib
   - glib-tools
-  - gmp
-  - gnutls
   - graphite2
   - gst-plugins-base
   - gstreamer
@@ -66,7 +62,6 @@ dependencies:
   - jupyter_core
   - kiwisolver
   - lcms2
-  - ld_impl_linux-64
   - lerc
   - libblas
   - libbrotlicommon
@@ -75,22 +70,14 @@ dependencies:
   - libcblas
   - libdeflate
   - libffi
-  - libgcc-ng
-  - libgfortran
-  - libgfortran-ng
-  - libgfortran5
   - libglib
-  - libglu
-  - libgomp
   - libiconv
   - liblapack
   - libopencv
   - libpng
   - libprotobuf
   - libsodium
-  - libstdcxx-ng
   - libtiff
-  - libuuid
   - libuv
   - libwebp
   - libwebp-base
@@ -110,8 +97,6 @@ dependencies:
   - munkres
   - nbconvert
   - nbformat
-  - ncurses
-  - nettle
   - networkx
   - ninja
   - ninja-base
@@ -153,7 +138,6 @@ dependencies:
   - pyyaml
   - pyzmq
   - qt
-  - readline
   - scikit-image
   - scikit-learn
   - scipy
